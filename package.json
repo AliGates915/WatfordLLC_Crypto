@@ -1,0 +1,37 @@
+{
+  "name": "crypto-website",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "export": "next export",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.4",
+    "@mui/lab": "^5.0.0-alpha.172",
+    "@mui/material": "^5.16.4",
+    "autoprefixer": "^10.4.19",
+    "axios": "^1.7.2",
+    "chart.js": "^4.4.3",
+    "compression-webpack-plugin": "^11.1.0",
+    "framer-motion": "latest",
+    "next": "^14.2.5",
+    "postcss": "^8.4.39",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "react-toastify": "^10.0.5",
+    "react-web-share": "^2.0.2",
+    "router-dom": "^2.2.11",
+    "sharp": "^0.33.4",
+    "tailwindcss": "^3.4.6"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.11",
+    "@types/react": "18.3.3"
+  }
+}

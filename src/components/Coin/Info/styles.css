@@ -1,0 +1,22 @@
+.info-component h1 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .info-p a {
+    text-decoration: underline;
+  }
+  
+  .info-p a:hover {
+    color: var(--blue) !important;
+    transition: all 0.3s;
+  }
+  .grey-wrapper{
+    display:block;
+    width:90%;
+    background-color: var(--darkGray);
+    /* margin: 1.5rem auto; */
+    border-radius: 0.8rem;
+    /* padding: 0rem 1rem; */
+}

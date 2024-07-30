@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Cedarville+Cursive&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --white: #fff;
+    --black: #111;
+    --blue: #3a80e9;
+    --gray: #888;
+    --grey: #888;
+    --darkGray: #1b1b1b;
+    --darkgrey:#1b1b1b;
+    --bgColor: #010118;
+    --green: #61c96f;
+    --red: #f94141;
+}
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--bgColor);
+    color: var(--white);
+    height: 100vh; /* Changed from 200vh to 100vh */
+}
+
+::selection {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--white);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--gray);
+    /* border-radius: 4rem; */ /* Uncomment if you want rounded scrollbars */
+}
+Image{
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}

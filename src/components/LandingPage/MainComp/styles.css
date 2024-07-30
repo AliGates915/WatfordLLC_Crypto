@@ -1,0 +1,224 @@
+.main-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem 4rem;
+  }
+  
+  .heading1,
+  .heading2 {
+    font-size: 6rem;
+    margin: 0;
+  }
+  
+  .heading1:hover {
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--white);
+    color: #010118;
+    transition: all 0.3s;
+  }
+  
+  .heading2 {
+    color: var(--blue);
+  }
+  
+  .info-text {
+    color: var(--grey);
+    font-weight: 300;
+  }
+  
+  .btn-flex {
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+  
+  .gradient-div {
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+  }
+  
+  .gradient {
+    position: absolute;
+    right: 60px;
+    top: 18px;
+    width: 260px;
+    border-radius: 30px; /* Adjust the value for more or less rounded corners */
+    box-shadow: 2px 2px 16px rgba(58, 128, 233, 1);
+    transition: all 0.5s ease-in-out;
+    overflow: hidden; 
+  }
+  .iphone {
+    position: absolute;
+    right: 10px;
+    top:20px;
+    width: 300px;
+  }
+  
+  @media only screen and (max-width: 1350px) {
+    .heading1,
+    .heading2 {
+      font-size: 6rem;
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .heading1,  
+    .heading2 {
+      font-size: 5rem;
+    }
+  
+    .gradient {
+      right: 20px;
+      top: 1rem;
+      max-width: 49%;
+    }
+    .iphone {
+      right: -20px;
+      width:55%;
+      min-width: 250px;
+    }
+  }
+
+  @media only screen and (max-width: 1080px) {
+    .heading1,  
+    .heading2 {
+      font-size: 4.5rem;
+    }
+  
+    .gradient {
+      right: 10px;
+      top: 1rem;
+      max-width: 50%;
+    }
+    .iphone {
+      right: -30px;
+      width:55%;
+      min-width: 250px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 1030px) {
+    
+    .gradient {
+      right: 13px;
+      top: 1rem;
+      width: 50%;
+      min-width: 215px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    
+    .gradient {
+      right: 10px;
+      top: 1rem;
+      max-width: 66%;
+    }
+  }
+  
+  @media only screen and (max-width: 850px) {
+    .heading1,
+    .heading2 {
+      font-size: 3.5rem;
+    }  
+    .gradient {
+      right: 10px;
+      top: 1rem;
+      max-width: 76%;
+    }
+    .iphone {
+      right: -30px;
+      width:55%;
+      min-width: 250px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 800px) {
+    .heading1,
+    .heading2 {
+      font-size: 4rem;
+    }
+    .main-flex {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .heading1,
+    .heading2,
+    .info-text {
+      text-align: center;
+    }
+  
+    .info-text {
+      font-size: 1rem;
+    }
+  
+    .btn-flex {
+      justify-content: center;
+      width: 100%;
+      margin-top:2rem;
+    }
+    .gradient-div{
+      display:block;
+      margin:auto;
+      margin-top:3rem;
+    }
+    .btn-flex {
+      margin-top:2rem;
+    }
+    .gradient {
+      left: 45px;
+      /* top: 1rem; */
+      width: 52%;
+      min-width: 215px;
+    }
+    .iphone {
+      left: 52px;
+      width:50%;
+      min-width: 245px;
+    }
+  }
+
+   @media only screen and (max-width: 500px) {
+    .heading1,
+    .heading2 {
+      font-size: 2rem;
+    }
+    .main-flex {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .btn-flex {
+      margin-top:2rem;
+    }
+  
+    .heading1,
+    .heading2,
+    .info-text {
+      text-align: center;
+    }
+  
+    .info-text {
+      font-size: 1rem;
+      flex-direction:column;
+    }
+    .gradient {
+      left: -40px;
+      /* top: 1rem; */
+      width: 50%;
+      min-width: 200px;
+    }
+    .iphone {
+      left: -35px;
+      width:50%;
+      min-width: 230px;
+    }
+  }
+  
+   
