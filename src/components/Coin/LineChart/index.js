@@ -7,12 +7,15 @@ const LineChart = ({ prices1, prices2, multiAxis }) => {
   const [chartData, setChartData] = useState(null);
 
   useEffect(() => {
+    console.log("Prices1:", prices1, "Prices2:", prices2);
     settingChartData(setChartData, prices1, prices2);
   }, [prices1, prices2]);
 
   if (!chartData) {
     return <div>Loading...</div>;
   }
+
+  console.log("Chart data:", chartData);
 
   const options = {
     plugins: {
